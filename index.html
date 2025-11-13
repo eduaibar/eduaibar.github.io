@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #0078d7, #00bcd4);
+      background: linear-gradient(135deg, #000000, #2c0b4e);
       color: #333;
     }
 
@@ -37,12 +37,16 @@
     }
 
     .card {
-      background: white;
+      background: linear-gradient(135deg, #440f62, #4169e1); 
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,1);
       width: 280px;
       padding: 1.5rem;
       transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 230px;
     }
 
     .card:hover {
@@ -51,29 +55,32 @@
     }
 
     .card h2 {
-      color: #0078d7;
+      color: #ffffff;
       font-size: 1.4rem;
       margin-bottom: 0.5rem;
     }
 
     .card p {
       font-size: 0.95rem;
-      color: #555;
+      color: #ffffff;
       margin-bottom: 1rem;
     }
 
     .card a {
       text-decoration: none;
-      background: #0078d7;
+      background: #8e11aa;
       color: white;
       padding: 0.6rem 1.2rem;
       border-radius: 8px;
       font-weight: bold;
       transition: background 0.2s;
+      align-self: center;
+      width: auto;
+      text-align: center;
     }
 
     .card a:hover {
-      background: #005fa3;
+      background: #000000;
     }
 
     footer {
@@ -104,9 +111,5 @@
       <a href="https://eduaibar.github.io/qrcode_fork/" target="_blank">Acceder al Proyecto</a>
     </div>
   </main>
-
-  <footer>
-    © 2025 eduaibar
-  </footer>
 </body>
 </html>
